@@ -1,0 +1,4 @@
+interface:
+  display_name: "北邮物理实验报告七分流"
+  short_description: "按北邮报告本五栏和七种实验分流，处理真实数据、原理、不确定度与排版"
+  default_prompt: "使用 $bupt-physics-lab-report，按我的北邮报告本和当次讲义选择实验分流，处理真实数据并完成对应栏目与排版。"

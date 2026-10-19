@@ -1,0 +1,20 @@
+# Private inputs and generated student work
+private/
+inputs/
+outputs/
+work/
+*.doc
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.xlsx
+*.csv
+.env
+.env.*
+*.key
+__pycache__/
+.DS_Store
+Thumbs.db

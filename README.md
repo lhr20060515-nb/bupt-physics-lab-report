@@ -34,6 +34,12 @@ An unofficial Agent Skill specifically for **Beijing University of Posts and Tel
 
 详见 [栏目与排版](references/report-form.md)、[共用数据处理规范](references/common.md)、[北邮范文的借鉴与修正](references/exemplar-lessons.md)。
 
+## 数据展示与计算过程
+
+所有分流强调“原始读数 → 处理量 → 平均/逐差/拟合 → 最终结果”的对应关系。图表保留原始依据、编号、转换定义和单位，并区分实测点、派生点及拟合/理论线。
+
+每种必要计算和关键最终量列出 **符号公式 → 带单位的实际数值代入 → 结果**。重复计算可用完整实例加可追溯的逐行表格；不能只有公式或只有最终数字。具体写法和教师声速示例见 [数据关系与计算呈现](references/data-presentation.md)。
+
 ## 安装与使用
 
 这是一个文件夹形式的 skill，入口为 [SKILL.md](SKILL.md)。基础版本不要求 API Key、特定连接器或联网服务；生成 Word/PDF 和计算图表的能力取决于使用它的 agent 环境。
@@ -99,6 +105,10 @@ bupt-physics-lab-report/
 ```
 
 当前发行的是指引和模板，没有独立的图形界面、报告计算引擎或 Word/PDF 渲染器；也未以七组本学期真实数据完成端到端行为评测。内容、公式和排版仍需按实际任务核对。
+
+## 版本与更新
+
+行为变化及原因记录于 [CHANGELOG.md](CHANGELOG.md)，具体文件差异见 GitHub 提交历史。每次更新使用独立提交；日志日期不等于已创建版本 Tag 或 Release。
 
 ## 参与改进
 
